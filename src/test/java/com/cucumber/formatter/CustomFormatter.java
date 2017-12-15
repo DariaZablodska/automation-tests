@@ -1,20 +1,11 @@
-package com.automationrhapsody.cucumber.formatter;
-
-import java.util.List;
+package com.cucumber.formatter;
 
 import gherkin.formatter.Formatter;
 import gherkin.formatter.NiceAppendable;
 import gherkin.formatter.Reporter;
-import gherkin.formatter.model.Background;
-import gherkin.formatter.model.BasicStatement;
-import gherkin.formatter.model.Examples;
-import gherkin.formatter.model.Feature;
-import gherkin.formatter.model.Match;
-import gherkin.formatter.model.Result;
-import gherkin.formatter.model.Scenario;
-import gherkin.formatter.model.ScenarioOutline;
-import gherkin.formatter.model.Step;
-import gherkin.formatter.model.TagStatement;
+import gherkin.formatter.model.*;
+
+import java.util.List;
 
 public class CustomFormatter implements Reporter, Formatter {
 

@@ -1,10 +1,10 @@
-package com.automationrhapsody.cucumber.parallel.tests.wikipedia;
-
-import java.io.File;
-import java.util.Properties;
+package com.cucumber.tests.homework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.io.File;
+import java.util.Properties;
 
 public class BaseSteps {
 
@@ -17,7 +17,7 @@ public class BaseSteps {
         props.setProperty("webdriver.gecko.driver",
             driversFolder(new File("").getAbsolutePath()) + "geckodriver");
         driver = new FirefoxDriver();
-        driver.navigate().to("http://en.wikipedia.org");
+        //driver.navigate().to("http://en.wikipedia.org");
     }
 
     protected void startBrowser() {

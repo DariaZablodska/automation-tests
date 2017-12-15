@@ -1,12 +1,8 @@
-package com.automationrhapsody.cucumber.parallel.tests.wikipedia;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+package com.cucumber.tests.homework;
 
 import cucumber.api.java.en.And;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 
 import cucumber.api.java.After;
@@ -14,7 +10,6 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import static junit.framework.Assert.assertTrue;
